@@ -3,7 +3,7 @@
 ### A study on ResNet-34 and DenseNet-121
 
 How easily can a state-of-the-art image classifier be fooled? This project answers
-that question empirically. I implement three adversarial attacks — **FGSM**, **PGD**,
+that question empirically, end to end. I implement three adversarial attacks — **FGSM**, **PGD**,
 and a **localized patch attack** — against a pretrained **ResNet-34**, measure how
 much each degrades accuracy, and then test whether those same adversarial images
 **transfer** to a completely different architecture, **DenseNet-121**.
